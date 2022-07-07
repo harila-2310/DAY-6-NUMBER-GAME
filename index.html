@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+ 
+    <div class="container">
+
+        <h1 id="heading">I have a number in my mind,can you Guess the Number between 1-150</h1><br><br>
+        <label for=""></label>
+        
+        
+        <div class="input-container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                  <h1 id="title">Numberates</h3>
+                </div>
+              </div><br>
+            <h1 id="textLabel"></h1>
+            <input type="number" id="textBox" placeholder="Enter the number" min="0" max="150" required><br><br>
+            <button type="button" id="checkButton">Guess</button><br><br>
+            <h2 id="attemptsLabel">
+                Chances: <span id="attemptCount">10</span>
+            </h2><br><br>
+            
+        </div>
+        <div id="message"></div>
+    </div>
+  
+    
+   
+   <img src="" id="checkButton" alt="" style="display: none;">
+    <button type="button" id="attemptCount"  style="display: none;"></button>
+    <button type="button" id="attemptLabel"  style="display: none;"></button>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
